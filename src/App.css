@@ -1,0 +1,35 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: system-ui, sans-serif;
+}
+
+.products {
+  list-style: none;
+  padding: 0;
+}
+
+.product {
+  display: flex;
+  gap: 16px;
+  border-bottom: 1px solid #eee;
+  padding: 12px 0;
+  align-items: center;
+}
+
+.price {
+  color: #2a7a2a;
+  font-weight: bold;
+}
+
+.error {
+  background: #ffe5e5;
+  border: 1px solid #ff8080;
+  color: #b30000;
+  padding: 16px;
+  border-radius: 6px;
+  margin: 20px auto;
+  max-width: 600px;
+  font-family: system-ui, sans-serif;
+}
